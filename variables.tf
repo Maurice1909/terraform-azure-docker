@@ -4,8 +4,3 @@ variable "vm_size" {
   default     = "Standard_B1s"
 }
 
-variable "home_ip_address" {
-  type        = string
-  description = "My home IP address"
-  default     = "90.202.70.154"
-}
